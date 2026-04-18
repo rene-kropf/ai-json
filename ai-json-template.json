@@ -1,25 +1,30 @@
 {
   "schema": "ai-site-info/1.0",
   "generated": "YYYY-MM-DD",
-
+  "updated": "YYYY-MM-DD",
   "site": {
+    "type": "business",
     "name": "Your Business Name",
     "url": "https://yourdomain.com",
     "tagline": "One sentence that captures what you do",
     "description": "Two or three sentences. What you do, who you do it for, what makes you different.",
     "contact": "https://yourdomain.com/contact",
-    "book_a_call": "https://calendly.com/yourlink"
+    "book_a_call": "https://calendly.com/yourlink",
+    "languages": ["en"]
   },
-
+  "social": {
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "twitter": "https://twitter.com/yourhandle",
+    "github": "https://github.com/yourusername"
+  },
   "location": {
     "city": "Your City",
     "region": "State or Province",
     "country": "US",
     "serves": "Local, regional, or remote — whatever applies"
   },
-
   "hours": "Mon-Fri 9am-5pm CT",
-
+  "accepts_clients": true,
   "services": [
     {
       "name": "Service or product name",
@@ -28,7 +33,6 @@
       "url": "https://yourdomain.com/this-service"
     }
   ],
-
   "faq": [
     {
       "q": "The question your customers ask most",
@@ -43,9 +47,7 @@
       "a": "Your honest answer"
     }
   ],
-
   "philosophy": "Optional — your approach or values in a sentence or two",
-
   "content": {
     "name": "Optional — name of your blog, podcast, or channel",
     "url": "https://link-to-your-content",
